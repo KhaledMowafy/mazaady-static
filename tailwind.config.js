@@ -20,6 +20,9 @@ module.exports = {
         'grayish': 'rgba(79, 79, 79, 1)',
         'yellowish': 'rgba(255, 245, 233, 1)',
         'dark-yellow': 'rgba(255, 149, 29, 1)',
+      },
+      spacing: {
+        '407': '25.438rem',
       }
     },
   },

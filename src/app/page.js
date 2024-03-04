@@ -5,20 +5,21 @@ import Tab from "@/components/atoms/Tab";
 import HThree from "@/components/atoms/HThree";
 import Links from "@/components/atoms/Links";
 import InfoCard from "@/components/atoms/InfoCard";
-import profile from "@/components/assets/profile.svg";
 import ProfileCard from "@/components/molecules/ProfileCard";
+import QRCode from "@/components/molecules/QRCode";
 const nunito = Nunito({
   subsets: ['latin'],
   weight: ['400', '700']
 })
 export default function Home() {
   return (
-    <main className={`flex min-h-screen items-center justify-between p-24 ${nunito.className}`}>
+    <main className={`flex min-h-screen items-center justify-between p-20 ${nunito.className}`}>
       <div className="flex">
-      <div className="w-4/12">
+      <div className="w-407 flex flex-col mr-8">
           <ProfileCard/>
+            <QRCode/>
        </div>
-        <div className="w-4/12">
+        <div className="w-/5">
         <Links className="text-pink font-bold">
           Home
         </Links>
