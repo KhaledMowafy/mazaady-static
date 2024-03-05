@@ -23,7 +23,7 @@ function Wall() {
             </div>
         </div>
         <div className="w-full flex mt-8 flex-col">
-            <HOne>Products</HOne>
+            <HOne>Products <span className="text-sm text-gray font-normal">(15)</span></HOne>
         <ProductCard image="./product.svg" header='Six-piece clothing set (blouse - pants - hat and ...' text="Starting Price" price="1000"/>
         <ProductCard image="./product.svg" header='Six-piece clothing set (blouse - pants - hat and ...' text="Starting Price" price="1000"/>
         <ProductCard image="./product.svg" header='Six-piece clothing set (blouse - pants - hat and ...' text="Starting Price" price="1000"/>
