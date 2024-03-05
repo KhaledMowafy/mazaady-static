@@ -14,7 +14,7 @@ function MobileQRCode() {
   return (
     <div className="flex flex-col justify-between bg-white rounded-3xl h-auto px-1 py-1 mt-8">
        <div id="accordion-collapse" data-accordion="collapse">
-       <h2 className="flex justify-between" id="accordion-collapse-heading-1">
+       <div className="flex justify-between" id="accordion-collapse-heading-1">
        <button
           type="button"
           className="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500  rounded-t-xl focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3"
@@ -47,7 +47,7 @@ function MobileQRCode() {
             </svg>
           </button>
          
-        </h2>
+        </div>
       </div>
       <div
         id="accordion-collapse-body-1"

@@ -10,7 +10,7 @@ const nunito = Nunito({
 export default function Home() {
   return (
     <main
-      className={`flex min-h-screen items-center justify-between p-3 py-20 md:p-20${nunito.className}`}
+      className={`flex min-h-screen items-center justify-between px-3 py-20 md:px-20 ${nunito.className}`}
     >
       <div className="flex flex-col w-full mt-8 md:flex-row">
         <div className=" w-full flex flex-col mr-8 md:w-407">

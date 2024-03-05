@@ -1,7 +1,5 @@
 import React from 'react'
 import Image from 'next/image'
-import Links from '../atoms/Links'
-import Button from '../atoms/Button'
 
 function MobileNav() {
   return (
