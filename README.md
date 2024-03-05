@@ -14,7 +14,7 @@
 <h3>Clone the repository:</h3>
 
 
-<pre><code>git clone <repository-url></pre></code>
+<pre><code>git clone https://github.com/KhaledMowafy/mazaady-static.git</pre></code>
 
 <h3>Install dependencies:</h3>
 
