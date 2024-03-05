@@ -1,8 +1,8 @@
 import React from 'react'
 
-function Tab({children}) {
+function Tab({children, className='text-gray border-gray'}) {
   return (
-      <button className="px-8 py-2 text-sm font-normal text-gray border-2 border-gray rounded-2xl ">{children}</button>
+      <button className={`px-6 leading-3 text-sm font-normal border-2 rounded-2xl ${className}`}>{children}</button>
   )
 }
 
