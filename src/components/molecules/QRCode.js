@@ -3,6 +3,7 @@ import HThree from '../atoms/HThree'
 import Image from 'next/image'
 import InfoCard from '../atoms/InfoCard'
 import Text from '../atoms/Text'
+
 function QRCode() {
   return (
     <div className="flex flex-col justify-start bg-white rounded-2xl h-auto px-7 py-8 mt-8">

@@ -14,13 +14,13 @@ function ProductCard({ image, text, price, header}) {
       </div>
       <div className="w-8/12">
         <div className="flex w-full flex-col">
-          <h1 className="text-lg">{header}</h1>
+          <h1 className="text-xs font-normal md:text-lg">{header}</h1>
           <div className="flex">
-            <p className="text-lg text-gray">{text}</p>
-            <h1 className="text-2xl font-bold ml-3">{price} EGP</h1>
+            <p className="text-xs text-gray md:text-lg">{text}</p>
+            <h1 className="text-xs font-bold ml-3 md:text-2xl">{price} EGP</h1>
           </div>
           <div className="flex justify-between items-center">
-            <p className="text-gray text-lg">Lot starts in </p>
+            <p className="text-gray text-xs md:text-lg">Lot starts in </p>
             <div className="w-3/12">
               <InfoCard text="2 days" textClassName="text-lg font-bold text-dark-yellow"/>
             </div>
